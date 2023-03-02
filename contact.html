@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <style>
+    body {
+      background-image: url('images/contact.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;  
+      background-size: cover;
+    }
+    img {
+    width:250px;
+    height:250px;
+    }
+    </style>
+</head>
+<center><h1 style="color:white">Contact Form</h1>
+  <br>
+  <br>
+ <form action="connect.php" method="POST">
+  <table>
+   <tr>
+    <td><font size=6 color="white"><label>Name:</label></td></font>
+    <td><input type="text" name="name" required></td>
+   </tr>
+   <tr>
+    <td><font size=6 color="white"><label>Email:</label></td></font>
+    <td><input type="email" name="email" required></td>
+   </tr> 
+   <tr>
+    <td><font size=6 color="white"><label>Phone no:</label></td></font>
+    <td><input type="phone" name="phone" required></td>
+   </tr>
+   <tr>
+    <td><font size=6 color="white"><label>Message:</label></td></font>
+    <td><textarea rows="5" cols="30" name="message" required></textarea></td>
+   </tr>
+    <tr>
+    <td><input type="submit" name="submit" id="submit"></td>
+   </tr>
+  </table>
+ </form>
+</body></center>
+</html>

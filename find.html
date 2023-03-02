@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head> <title>Customer Details</title>
+        <style>
+            body {
+              background-image: url('images/home-img.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;  
+              background-size: cover;
+            }
+            img {
+            width:250px;
+            height:250px;
+            }
+            </style>
+    </head>
+    <center>
+    <body>
+        <h1 style="color:white"><u>Customer Details</u></h1>
+        <fieldset><form action="cus.php" method="post">
+        	<br><h2 style="color:white">Search Customer Details Based on phone no.</h2>
+        	<br><h2 style="color:white">Enter Customer Phone no:<input type="text" id="phone" name="phone" ></h2>
+        	<br><br><input type="submit" value="Search">
+        </form>
+
+        <form action="cus.php" method="post">
+            <br><h2 style="color:white">Search Customer Details Based on Name</h2>
+            <br><h2 style="color:white">Enter Customer Name:<input type="text" id="name" name="name" ></h2>
+            <br><br><input type="submit" value="Search" onclick="SaveformDetails()">
+        </form></fieldset>
+    </center></body>
+</html>
+
